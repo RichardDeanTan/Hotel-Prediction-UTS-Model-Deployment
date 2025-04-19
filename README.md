@@ -13,6 +13,7 @@ Proyek ini memprediksi apakah suatu pemesanan hotel akan dibatalkan atau tidak m
 
 ## 🚀 Cara Run Aplikasi
 
+### 🔹 1. Jalankan Secara Lokal
 ### Clone Repository
 ```bash
 git clone https://github.com/RichardDeanTan/Hotel-Prediction-UTS-Model-Deployment.git
@@ -26,6 +27,11 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
+### 🔹 2. Jalankan Secara Online (Tidak Perlu Install)
+Klik link berikut untuk langsung membuka aplikasi web:
+#### 👉 [Aplikasi Prediksi Hotel](https://hotel-prediction-uts-model-deployment-2702262652.streamlit.app/)
+
 ## 💡 Fitur
 - Memprediksi apakah suatu pemesanan hotel akan dibatalkan.
 - Interactive web interface menggunakan Streamlit.
@@ -44,7 +50,7 @@ Model dikembangkan di dalam Jupyther Notebook (Hotel Bookings UTS.ipynb) dengan
 - Final model (best_model.pkl)
 
 ## 👨‍💻 Pembuat
-Richard Dean Tan — Proyek UTS untuk Universitas Bina Nusantara, Mata Kuliah Model Deployment.
+Richard Dean Tanjaya — Proyek UTS Mata Kuliah Model Deployment, Universitas Bina Nusantara
 
 ## 📝 License
 Proyek ini bersifat open-source dan bebas digunakan untuk keperluan edukasi.
