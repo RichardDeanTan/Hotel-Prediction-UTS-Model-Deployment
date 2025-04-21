@@ -15,7 +15,7 @@ class HotelBookingInference:
         
         return self.handle_missing_values(input_df)
     
-    def preprocess_batch_input(self, input_file_path):
+    def preprocess_csv_input(self, input_file_path):
         input_df = pd.read_csv(input_file_path)
         
         input_df = input_df.drop(columns=['Booking_ID', 'arrival_date'])
@@ -40,7 +40,7 @@ class HotelBookingInference:
     
     def predict(self, input_data, is_file=False):
         if is_file:
-            processed_data = self.preprocess_batch_input(input_data)
+            processed_data = self.preprocess_csv_input(input_data)
         else:
             processed_data = self.preprocess_single_input(input_data)
         
