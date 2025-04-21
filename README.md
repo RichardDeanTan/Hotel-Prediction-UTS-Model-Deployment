@@ -6,7 +6,8 @@ Proyek ini memprediksi apakah suatu pemesanan hotel akan dibatalkan atau tidak m
 
 - `2702262652_1B.ipynb` — Jupyter Notebook untuk data exploration, preprocessing, model building, dan model fine tuning.
 - `2702262652_2B.py` — Python untuk format OOP menggunakan hasil model terbaik dari Jupyther Notebook.
-- `2702262652_3B.py` — File Streamlit yang menjalankan antarmuka prediksi.
+- `2702262652_3B.py` — Python untuk inference model yang sudah dibuat.
+- `2702262652_4B.py` — File Streamlit yang menjalankan website prediksi.
 - `best_model.pkl` — Model Machine Learning terbaik yang sudah di train.
 - `transformer_data.pkl` — Pipeline preprocessing untuk transformasi data.
 - `requirements.txt` — Daftar dependensi Python yang diperlukan untuk run project.
