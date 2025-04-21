@@ -31,7 +31,7 @@ streamlit run 2702262652_4B.py
 
 ### 🔹 2. Jalankan Secara Online (Tidak Perlu Install)
 Klik link berikut untuk langsung membuka aplikasi web:
-#### 👉 [Aplikasi Prediksi Hotel](https://hotel-prediction-uts-model-deployment-2702262652.streamlit.app/)
+#### 👉 [Aplikasi Prediksi Hotel](https://hotel-prediction-uts-md-2702262652.streamlit.app/)
 
 ## 💡 Fitur
 - Memprediksi apakah suatu pemesanan hotel akan dibatalkan.
