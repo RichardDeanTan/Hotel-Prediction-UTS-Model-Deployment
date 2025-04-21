@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 ### Jalankan Aplikasi Streamlit
 ```bash
-streamlit run 2702262652_3B.py
+streamlit run 2702262652_4B.py
 ```
 
 ### 🔹 2. Jalankan Secara Online (Tidak Perlu Install)
